@@ -23,12 +23,12 @@ repository               : "pdrpeters/pdrpeters.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
-  name             : "Pedro Peters"
+  avatar           : "phpeters.png"
+  name             : "Pedro H. Peters Barbosa"
   pronouns         : # example: "she/her"  
   bio              : "Electrical Engineer -- PhD Student"
   location         : "Juiz de Fora / MG"
-  employer         : "Universidade Federal de Juiz de Fora"
+  employer         : "Universidade Federal\nde Juiz de Fora"
   uri              : # URL
   email            : "pedro.peters@estudante.ufjf.br" 
 
