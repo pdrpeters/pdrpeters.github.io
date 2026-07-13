@@ -1,3 +1,7 @@
+A shoutout to Stuart Geiger (@staeiou), creator of the academicpages.github.io repository using the Minimal Mistakes Jekyll Theme. Documentation on the website template, customizations and copyrights are as follows:
+
+---
+
 # Academic Pages
 **Academic Pages is a GitHub Pages template for personal and professional portfolio-oriented websites.**
 
