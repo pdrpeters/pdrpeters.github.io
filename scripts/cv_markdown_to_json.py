@@ -118,6 +118,13 @@ def extract_author_info(config):
                 "url": author.get('googlescholar')
             })
         
+        if author.get('lattes'):
+            profiles.append({
+                "network": "Lattes CNPq",
+                "username": "",
+                "url": author.get('lattes')
+            })
+        
         if author.get('orcid'):
             profiles.append({
                 "network": "ORCID",

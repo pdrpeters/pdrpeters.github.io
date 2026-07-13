@@ -28,7 +28,7 @@ author:
   pronouns         : # example: "she/her"  
   bio              : "Electrical Engineer -- PhD Student"
   location         : "Juiz de Fora / MG"
-  employer         : "Universidade Federal\nde Juiz de Fora"
+  employer         : "UFJF"
   uri              : # URL
   email            : "pedro.peters@estudante.ufjf.br" 
 
@@ -43,7 +43,7 @@ author:
   semantic         : # URL
   ssrn             : # URL
   pubmed           : # URL
-  researchgate     : # URL
+  researchgate     : "https://www.researchgate.net/profile/Pedro-Peters-Barbosa?ev=hdr_xprf"
   scopus           : # URL
   zotero           : # URL
 
@@ -67,7 +67,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : "pedro-henrique-peters-barbosa"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
