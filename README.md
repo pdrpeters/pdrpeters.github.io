@@ -1,4 +1,4 @@
-A shoutout to Stuart Geiger (@staeiou), creator of the academicpages.github.io repository using the Minimal Mistakes Jekyll Theme. Documentation on the website template, customizations and copyrights are as follows:
+A shoutout to [Stuart Geiger](https://github.com/staeiou), creator of the academicpages.github.io repository using the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/). Documentation on the website template, customizations and copyrights are as follows:
 
 ---
 
