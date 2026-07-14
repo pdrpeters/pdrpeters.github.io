@@ -19,9 +19,9 @@ Latest
 
 Milestones highlights:
 ======
-* __Apr/2025__: Short-term international research project at INESC-TEC / Portugal.
+* __Apr/2025__: Collaborated on short-term international research project at INESC-TEC / Portugal.
 * __Feb/2025__: Short-term consultancy for Imperial College London.
-* __Nov/2025__: Short-term international research project at SFU / Canada.
+* __Nov/2025__: Collaborated on short-term international research project at SFU / Canada.
 * __Oct/2024__: Delivered seminar at UCR / Costa Rica.
 * __May/2024__: Acted as a liason for Portuguese speaking countries and the International Energy Agency at the Energy Modeling Platform at GIMPA / Ghana.
 * __May/2024__: Invited as a trainer for the CCG Summer School on Energy Modeling at GIMPA / Ghana.

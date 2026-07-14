@@ -1,7 +1,7 @@
 ---
-title: "Gallery item number 1"
-excerpt: "Short description of gallery item number 1<br/><img src='/images/500x300.png'>"
+title: "Faculty of Engineering / UFJF"
+excerpt: "Aerial shot of the UFJF Faculty of Engineering. 1<br/><img src='/images/2023_faculty_engineering.jpg'>"
 collection: gallery
 ---
 
-This is an item in your gallery. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+Aerial shot of my *alma mater*, the Faculty of Engineering of the Federal University of Juiz de Fora. Photo taken in July, 2023. Credits: Fernando Plazas-Niño.
