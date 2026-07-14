@@ -12,7 +12,7 @@ I am an Electrical Engineer pursuing a PhD at [PPEE/UFJF](https://www2.ufjf.br/p
 
 My research interests center on power system analysis, energy system planning, renewable energy sources and electricity markets. I am interested on the integration of renewable energy sources and innovative solutions for the development of modern power and energy systems.
 
-Check out the [News](https://pdrpeters.github.io/gallery/) and the [Gallery](https://pdrpeters.github.io/gallery/) for regular updates!
+Check out the [News](https://pdrpeters.github.io/news/) and the [Gallery](https://pdrpeters.github.io/gallery/) for regular updates!
 
 <!--
 Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites
