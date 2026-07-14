@@ -256,6 +256,11 @@ body:hover .visually-hidden button {
     color: $mastodon-color;
   }
 
+  .fa-lattes,
+  .fa-lattes-square {
+    color: $lattes-color;
+  }
+
   .ai-orcid,
   .ai-orcid-square {
     color: $orcid-color;
