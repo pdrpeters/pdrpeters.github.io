@@ -1,19 +1,25 @@
 {% include base_path %}
 
-<div class="page__footer-copyright" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 0.75rem; align-items: center; padding: 0.5rem 0;">
-  <span>&copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}</span>
+<div class="page__footer-custom" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 0.75rem; padding: 0.5rem 0; font-size: 0.85em;">
+  
+  <div class="page__footer-left" style="display: flex; gap: 0.75rem; align-items: center; flex-wrap: wrap;">
+    {% if site.author.github %}
+      <a href="https://github.com/{{ site.author.github }}"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a>
+    {% endif %}
 
-  {% if site.author.github %}
-    <span>&bull; <a href="https://github.com/{{ site.author.github }}"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a></span>
-  {% endif %}
+    {% if site.author.bitbucket %}
+      <a href="https://bitbucket.org/{{ site.author.bitbucket }}"><i class="fab fa-bitbucket" aria-hidden="true"></i> Bitbucket</a>
+    {% endif %}
 
-  {% if site.author.bitbucket %}
-    <span>&bull; <a href="https://bitbucket.org/{{ site.author.bitbucket }}"><i class="fab fa-bitbucket" aria-hidden="true"></i> Bitbucket</a></span>
-  {% endif %}
+    {% if site.atom_feed.hide != true %}
+      <a href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ base_path }}/feed.xml{% endif %}"><i class="fa fa-fw fa-rss-square" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].feed_label | default: "Feed" }}</a>
+    {% endif %}
 
-  {% if site.atom_feed.hide != true %}
-    <span>&bull; <a href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ base_path }}/feed.xml{% endif %}"><i class="fa fa-fw fa-rss-square" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].feed_label | default: "Feed" }}</a></span>
-  {% endif %}
+    <a href="/sitemap/">{{ site.data.ui-text[site.locale].site_map | default: "Sitemap" }}</a>
+  </div>
 
-  <span>&bull; <a href="/sitemap/">{{ site.data.ui-text[site.locale].site_map | default: "Sitemap" }}</a></span>
+  <div class="page__footer-right" style="text-align: right;">
+    &copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}, {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }} <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a>
+  </div>
+
 </div>
